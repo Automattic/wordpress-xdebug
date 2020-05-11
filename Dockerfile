@@ -1,5 +1,5 @@
 FROM wordpress:latest
-LABEL maintainer Oscar Lopez <oscar.lopez@automattic.com>
+LABEL maintainer Automattic <oscar.lopez@automattic.com>
 
 ENV XDEBUG_PORT 9000
 ENV XDEBUG_IDEKEY docker
