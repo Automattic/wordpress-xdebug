@@ -41,7 +41,7 @@ services:
 
 To use XDebug in VSCode you need the [PHP Debug extension](https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-debug).
 
-You need to also make VSCode map the paths on the container to the ones on the host, you have to set the pathMappings settings in your `launch.json`.
+You also need to make VSCode map the paths on the container to the ones on the host, you have to set the pathMappings settings in your `launch.json`.
 
 Example configuration file `.vscode/launch.json`:
 
@@ -61,3 +61,17 @@ Example configuration file `.vscode/launch.json`:
   ]
 }
 ```
+
+## Docker Hub
+
+Published as [automattic/wordpress-xdebug](https://hub.docker.com/r/automattic/wordpress-xdebug) in **Docker Hub**.
+
+### How to publish a new build
+
+Push anything to master on [Automattic/wordpress-xdebug](https://github.com/Automattic/wordpress-xdebug) to get a new build done automatically. See [latest builds of automattic/wordpress-xdebug here](https://hub.docker.com/r/automattic/wordpress-xdebug/builds).
+
+Based on previous work from [andreccosta/wordpress-xdebug](https://hub.docker.com/r/andreccosta/wordpress-xdebug.)
+
+## License
+
+GPL v2
