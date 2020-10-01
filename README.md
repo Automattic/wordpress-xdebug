@@ -66,7 +66,7 @@ Example configuration file `.vscode/launch.json`:
 
 Published as [automattic/wordpress-xdebug](https://hub.docker.com/r/automattic/wordpress-xdebug) in **Docker Hub**.
 
-## How to publish a new build
+## How to publish a new build on Docker Hub
 
 
 1. Create a Pull Request bumping the version in `Dockerfile` for the `wordpress` image tag on [Automattic/wordpress-xdebug](https://github.com/Automattic/wordpress-xdebug) to get a new build done automatically. See [latest builds of automattic/wordpress-xdebug here](https://hub.docker.com/r/automattic/wordpress-xdebug/builds).
