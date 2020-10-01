@@ -73,7 +73,7 @@ Published as [automattic/wordpress-xdebug](https://hub.docker.com/r/automattic/w
 2. Merge the PR (if you're an Automattician)
 3. Using GitHub's Interface, create a release pointing to master and with the release tag matching the version you justed bumped to in the Dockerfile. e.g. so it reads `FROM wordpress:5.6.1`.
 	![image](https://user-images.githubusercontent.com/746152/94859157-7be94000-040a-11eb-8173-127d033b5238.png)
-4. That's it, now `automattic/wordpress-xdebug-latest` and `automattic/wordpress-xdebug:5.6.1` will both refer to the new build with your updates.
+4. That's it, now `automattic/wordpress-xdebug:latest` and `automattic/wordpress-xdebug:5.6.1` will both refer to the new build based on the `wordpress:5.6.1` tag.
 
 Based on previous work from [andreccosta/wordpress-xdebug](https://hub.docker.com/r/andreccosta/wordpress-xdebug.)
 
