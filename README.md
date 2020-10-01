@@ -68,7 +68,7 @@ Published as [automattic/wordpress-xdebug](https://hub.docker.com/r/automattic/w
 
 ### How to publish a new build
 
-Push anything to master on [Automattic/wordpress-xdebug](https://github.com/Automattic/wordpress-xdebug) to get a new build done automatically. See [latest builds of automattic/wordpress-xdebug here](https://hub.docker.com/r/automattic/wordpress-xdebug/builds).
+Create a Pull Request bumping the version in `Dockerfile` for the `wordpress` image tag on [Automattic/wordpress-xdebug](https://github.com/Automattic/wordpress-xdebug) to get a new build done automatically. See [latest builds of automattic/wordpress-xdebug here](https://hub.docker.com/r/automattic/wordpress-xdebug/builds).
 
 Based on previous work from [andreccosta/wordpress-xdebug](https://hub.docker.com/r/andreccosta/wordpress-xdebug.)
 
