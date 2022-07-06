@@ -80,5 +80,5 @@ Published as [automattic/wordpress-xdebug](https://hub.docker.com/r/automattic/w
 
 GPL v2
 
-Based on previous work from [andreccosta/wordpress-xdebug](https://hub.docker.com/r/andreccosta/wordpress-xdebug.)
+Based on previous work from [andreccosta/wordpress-xdebug](https://hub.docker.com/r/andreccosta/wordpress-xdebug)
 
