@@ -34,7 +34,7 @@ services:
       WORDPRESS_DB_HOST: db:3306
       WORDPRESS_DB_USER: wordpress
       WORDPRESS_DB_PASSWORD: wordpress
-      XDEBUG_CONFIG: remote_host=host.docker.internal
+      XDEBUG_CONFIG: client_host=host.docker.internal
 ```
 
 ## Usage with VSCode
