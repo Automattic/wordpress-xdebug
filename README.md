@@ -13,13 +13,13 @@ version: '3.3'
 
 services:
   db:
-    image: mysql:5.7
+    image: docker.io/bitnami/mariadb:10.3-debian-10
     restart: on-failure
     environment:
-      MYSQL_ROOT_PASSWORD: somewordpress
-      MYSQL_DATABASE: wordpress
-      MYSQL_USER: wordpress
-      MYSQL_PASSWORD: wordpress
+      MARIADB_USER: wordpress
+      MARIADB_PASSWORD: wordpress
+      MARIADB_ROOT_PASSWORD: wordpress
+      MARIADB_DATABASE: wordpress
 
   wp:
     depends_on:
@@ -34,7 +34,6 @@ services:
       WORDPRESS_DB_HOST: db:3306
       WORDPRESS_DB_USER: wordpress
       WORDPRESS_DB_PASSWORD: wordpress
-      XDEBUG_CONFIG: client_host=host.docker.internal
 ```
 
 ## Usage with VSCode
