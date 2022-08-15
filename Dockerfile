@@ -1,4 +1,4 @@
-FROM wordpress:5.7.0
+FROM wordpress:6.0.0
 LABEL maintainer Automattic <oscar.lopez@automattic.com>
 
 ENV XDEBUG_PORT 9000
