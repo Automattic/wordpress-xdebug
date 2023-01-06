@@ -2,7 +2,7 @@
 
 ## Usage
 
-Use the environment variable **XDEBUG_CONFIG** tu configure the XDebug PHP extension.
+Use the environment variable **XDEBUG_CONFIG** to configure the XDebug PHP extension.
 
 ## Docker Compose
 
